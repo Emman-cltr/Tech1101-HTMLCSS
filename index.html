@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <h1> HTML forms examples </h1>
+        </header>
+
+        <div>
+            <form action="index.php/index/py/index.js" method="GET/POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name" /> <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email" /> <br>
+
+                
+
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </fieldset>
+
+                <fielset>
+                    <legend> Feedback </legend>
+                    <textarea rows="4" cols="50" placeholder="Enter your feedback here..."></textarea>
+                </fielset>
+
+                <fieldset>
+                    <legend>Choose what you like</legend>
+                    <select>
+                        <optgroup label="Indoor Sports">
+                            <option value="table tennis"> Table Tennis</option>
+                            <option value="badminton"> Badminton</option>
+                            <option value="chess"> Chess</option>
+                        </optgroup>
+                        <optgroup label="Outdoor Sports">
+                            <option value="swimming"> Swimming</option>
+                            <option value="soccer"> Soccer</option>
+                            <option value="basketball"> Basketball</option>
+                        </optgroup>
+
+                    </select>
+                </fieldset>
+
+            </form>
+        </div>
+
+        <footer> 
+
+        </footer>
+    </body>
+</html>
