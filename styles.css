@@ -6,7 +6,7 @@
 }
 
 /* smallest square  */
-#square1{
+#square1 {
     border: solid 5px black;
     width: 14.3vmin;
     height: 14.3vmin;
@@ -16,7 +16,7 @@
 }
 
 /* Medium square double the size of the smallest */
-#square2{
+#square2 {
     border: solid 10px rgb(241, 195, 203);
     width: 28.6vmin;
     height: 28.6vmin;
@@ -24,8 +24,9 @@
     margin-left: 14.3vmin;
     padding: 10px;
 }
+
 /* Largest square quadruple the size of the smallest */
-#square3{
+#square3 {
     border: solid 20px rgb(113, 32, 123);
     width: 57.1vmin;
     height: 57.1vmin;
@@ -33,6 +34,3 @@
     margin-left: 42.9vmin;
     padding: 20px;
 }
-
-
-
