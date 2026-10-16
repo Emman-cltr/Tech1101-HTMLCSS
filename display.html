@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display css property </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+
+        .div1{
+            border: 2px red solid;
+            display: inline-block;
+        }
+
+        .div2{
+            border: 2px blue solid;
+            display: inline;
+        }
+
+        a{
+            display: inline-block;
+            width: 200px;
+            padding: 20px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        span{
+            display: inline-block;
+            width: 100px;
+            border: 2px solid green;
+        }
+
+        .common{
+            border: 2px solid rgb(254, 0, 0);
+            display: inline;
+            width: 50px;
+        }
+
+        .parent-div{
+            width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            flex-wrap:wrap;
+            border: 2px solid rgb(144, 0, 255);
+        }
+
+        h1{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="div1">This is a div with a red border</div>
+        <div class="div2">This is a div with a blue border</div>
+        <a href="#">Link</a>
+        <span>This is a span</span>
+    </section>
+<br>
+<h1> Display Flex example</h1>
+    <section>
+        <div class="parent-div">
+            <div class="div3 common">Div 3</div>
+            <div class="div4 common">Div 4</div>
+            <div class="div5 common">Div 5</div>
+            <div class="div6 common">Div 6</div>
+        </div>
+    </section>
+</body>
+
+</html>

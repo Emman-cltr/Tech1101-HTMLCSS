@@ -1,0 +1,42 @@
+id, tag or class name
+h1 {
+    color: red;
+}
+
+#p-text {
+    color: blue;
+}
+
+/* group selector */
+li a {
+    background-color: yellow;
+    color: green;
+    font-size: large;
+}
+
+main div span p {
+    color: purple;
+    font-size: 20px;
+}
+
+ /* Direct child selector */
+section > p {
+    color: orange;
+    font-size: 18px;
+}
+
+ /* Pseudo-class selector */
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+ 
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
