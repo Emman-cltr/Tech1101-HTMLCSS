@@ -1,0 +1,36 @@
+/* This removes added space the browser adds to the content */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#square1{
+    border: solid 5px black;
+    width: 14.3vmin;
+    height: 14.3vmin;
+    background-color: rgb(219, 135, 131);
+    margin-left: 0;
+    padding: 5px;
+}
+
+#square2{
+    border: solid 10px rgb(241, 195, 203);
+    width: 28.6vmin;
+    height: 28.6vmin;
+    background-color: rgb(172, 233, 154);
+    margin-left: 14.3vmin;
+    padding: 10px;
+}
+
+#square3{
+    border: solid 20px rgb(113, 32, 123);
+    width: 57.1vmin;
+    height: 57.1vmin;
+    background-color: rgb(158, 205, 246);
+    margin-left: 42.9vmin;
+    padding: 20px;
+}
+
+
+
